@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+
+body {
+    background-image: url(../img/pattern.jpg);
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    height: 625px;
+    padding-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.content_detail p{
+    margin: 3px;
+}
+
+.content_deskripsi {
+    margin-top: 10px;
+}
+.content_deskripsi p{
+    display: inline;
+
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    width: 40%;
+    
+}
+
+.formInput_container {
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    border: 1px solid rgb(158, 153, 153);
+    height: 600px;
+    width: 50%;
+    box-shadow: 0 0 4px 1px rgb(109, 106, 106);
+}
+
+.formInput_label {
+    font-weight: bolder;
+    display: flex;
+    padding: 0.3em;
+}
+
+.formInput_input {
+    display: flex;
+    padding: 0.3em;
+}
+
+.button_formInput {
+    color: rgb(29, 63, 52);
+    background-color: rgb(219, 223, 223);
+    font-weight: bolder;
+    font-size: larger;
+    width: 100px;
+    margin-top : 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.table_container {
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    padding: 30px;
+}
+
+.table_content {
+    margin: auto;
+    width: 100%;
+}
+
+.table_th {
+    width: 10%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(107, 221, 221);
+}
+
+.table_td_button {
+    text-align: center;
+}
+
+.table_head {
+    background-color: darkcyan;
+}
+
+.login_container {
+    margin: auto;
+    margin-top : 150px;
+    margin-bottom: 277px;
+    width: 20%;
+    border: 1px solid rgb(192, 190, 190);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 1px rgb(109, 106, 106);
+}
+
+.login_form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.login_input {
+    padding: 5px;
+}
+
+.login_label {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.login_button {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
